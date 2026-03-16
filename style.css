@@ -1,0 +1,163 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 10px;
+    background-color: #edddd4;
+}
+
+.hero {
+    display: flex;
+    gap: 28px;
+    padding: 36px;
+    align-items: center;
+}
+
+.hero-left-wrap {
+    flex: 1.4;
+    margin-right: 48px;
+}
+
+.hero-left {
+    background-color: #462521;
+    padding: 15px;
+    border-radius: 24px;
+}
+
+.hero-left h3 {
+    color: #edddd4;
+}
+
+.Name {
+    color: #edddd4;
+    font-weight: 800;
+}
+
+.hero-left h2 {
+    color: #edddd4;
+}
+
+.hero-left p {
+    color: #edddd4;
+    line-height: 1.6;
+}
+
+.social-links {
+    margin-top: 16px;
+    padding-left: 12px;
+    display: flex;
+    gap: 16px;
+}
+
+.social-links a {
+    color: #462521;
+    font-size: 36px;
+}
+
+.hero-right {
+    flex: 0.6;
+    align-self: center;
+}
+
+.foto {
+    background: #7b886f;
+    border-radius: 24px;
+    padding: 14px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2)
+}
+
+.foto img {
+    border-radius: 18px;
+    width: 100%;
+    object-fit: cover;
+}
+
+img {
+    object-fit: cover;
+}
+
+.background {
+    padding: 10px 36px;
+}
+
+.background-title {
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #462521;
+}
+
+.background-content {
+    display: flex;
+    gap: 20px;
+}
+
+.background1,
+.background2,
+.background3 {
+    flex: 1;
+    background-color:#7b886f;
+    padding: 10px;
+    border-radius: 24px;
+    color: #19381f;
+}
+
+/* .projects {
+    background-color: #19381f;
+}
+
+.projects-title {
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #7b886f;
+} */
+
+
+/* Styling untuk Section Projects */
+.projects {
+    background-color: #19381f; /* Hijau tua */
+    padding: 5px 36px;
+    color: #edddd4; /* Warna teks terang agar kontras */
+}
+
+.project-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center; /* Posisi kartu di tengah */
+    flex-wrap: wrap; /* Agar responsif jika layar mengecil */
+}
+
+.project-card {
+    background-color: #7b886f; /* Hijau lebih terang untuk kartu */
+    padding: 24px;
+    border-radius: 18px;
+    flex: 1; /* Lebar kartu fleksibel */
+    min-width: 250px; /* Lebar minimum kartu */
+    max-width: 400px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease; /* Animasi saat hover */
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Efek naik sedikit saat kursor diarahkan */
+}
+
+.project-card h2 {
+    color: #462521; /* Coklat tua untuk judul proyek */
+    margin-top: 0;
+}
+
+.project-card p {
+    color: #19381f; /* Hijau tua untuk deskripsi */
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #462521;
+    font-weight: bold;
+    border-bottom: 2px solid #462521;
+}
